@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <script src="script.js"></script>
+    
+    
+    <title>Zdafzjk</title>
+    <meta name="title" content="Zdafzjk">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="https://cdn.glitch.global/e1ec3934-1fc7-4232-b716-e461790af344/logo??.png?v=1648897610415" type="image/png">
+    
+    <meta name="language" content="English">
+    <meta content="dark" name="color-scheme"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+    <!-- Ads -->
+    
+    <!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://zdafzjk.ml/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zdafzjk">
+<meta property="og:image" content="https://cdn.glitch.global/e1ec3934-1fc7-4232-b716-e461790af344/logo??.png?v=1648897610415">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_small_image">
+<meta property="twitter:domain" content="zdafzjk.ml">
+<meta property="twitter:url" content="https://zdafzjk.ml/">
+<meta name="twitter:title" content="Zdazjk">
+<meta name="twitter:description" content="Zdafzjk free hentai pics!">
+<meta name="twitter:image" content="https://cdn.glitch.global/e1ec3934-1fc7-4232-b716-e461790af344/logo??.png?v=1648897610415">
+  </head>
+
+  <body>
+    <header>
+      <div class="btn" id="brand"><a onclick="window.location.href='/'">Zdafzjk</a></div>
+      <nav>
+        <ul>
+          <li><a class="btn" title="HOME" onclick="window.location.href='/source'" >Source</a></li>
+          <li><a class="btn" title="VIDEOS" onclick="window.location.href='/videos'" >Videos</a></li>
+          <li><a class="btn" title="IMAGES" onclick="window.location.href='/images'" >Images</a></li>
+        </ul>
+      </nav>
+
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)" ontoggle="()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a class="btn" onclick="window.location.href='/source'">Source</a></li>
+          <li><a class="btn" onclick="window.location.href='/videos'">Videos</a></li>
+          <li><a class="btn" onclick="window.location.href='/images'">Images</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    
+    <div class="src-wrap">
+
+      <div class="source">
+
+        <input class="src-num" id="source" title="  " type="tel" placeholder="Source..." maxlength="5" minlength="5" min="00001" max="99999" required>
+        <button class="src-btn" id="src-btn" type="button" onclick="getSource();"><i class="src-img"></i></button>
+      </div>
+
+    </div>
+    
+    
+    <script>
+      var input = document.getElementById("source");
+      input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+         event.preventDefault();
+         document.getElementById("src-btn").click();
+        }
+      });
+    </script>
+    
+  </body>
+</html>
